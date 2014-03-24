@@ -1,0 +1,102 @@
+﻿/*----------------------------------------------------------------------vvvv任务栏按钮样式vvvvv---------------------------------------------------------------*/
+/*以下注释不知道是怎么来的，赶时间，直接注释*/
+/*
+.ux-taskbuttons-panel .x-btn-icon .x-btn-center .x-btn-text{
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 16px;
+	width: 16px;
+	cursor:pointer;
+	white-space: nowrap;
+    padding:0;
+}
+.ux-taskbuttons-panel .x-btn-icon .x-btn-center{
+	padding:1px;
+}
+*/
+.ux-taskbuttons-panel .x-btn-text-icon .x-btn-center .x-btn-text{
+	background-position: 0 6px;
+	background-repeat: no-repeat;
+	height:28px;
+	overflow:hidden;
+	padding:7px 0px 7px 20px;
+}
+.ux-taskbuttons-panel .x-btn-left, .ux-taskbuttons-panel .x-btn-right{
+	font-size:1px;
+    line-height:1px;
+}
+.ux-taskbuttons-panel .x-btn-left{
+	width:4px;
+	height:28px;
+	background:url(../images/default/taskbar/taskbutton.gif) no-repeat 0 0;
+}
+.ux-taskbuttons-panel .x-btn-right{
+	width:4px;
+	height:28px;
+	background:url(../images/default/taskbar/taskbutton.gif) no-repeat 0 -28px;
+}
+.ux-taskbuttons-panel .x-btn-left i, .ux-taskbuttons-panel .x-btn-right i{
+	display:block;
+    width:4px;
+    overflow:hidden;
+    font-size:1px;
+    line-height:1px;
+}
+.ux-taskbuttons-panel .x-btn-center{
+	background:url(../images/default/taskbar/taskbutton.gif) repeat-x 0 -56px;
+	vertical-align: middle;
+	text-align:center;
+	padding:0 5px;
+	cursor:pointer;
+	white-space:nowrap;
+}
+.ux-taskbuttons-panel .x-btn-left{ 
+	background-position:0 0;
+}
+.ux-taskbuttons-panel .x-btn-right{
+	background-position:0 -28px;
+}
+.ux-taskbuttons-panel .x-btn-center{
+	background-position:0 -56px;
+}
+.ux-taskbuttons-panel .x-btn-over .x-btn-left{
+	background-position:0 -252px;
+}
+.ux-taskbuttons-panel .x-btn-over  .x-btn-right{
+	background-position:0 -280px;
+}
+.ux-taskbuttons-panel .x-btn-over .x-btn-center{
+	background-position:0 -308px;
+}
+.ux-taskbuttons-panel .x-btn-click .x-btn-left{
+	background-position:0 -168px;
+}
+.ux-taskbuttons-panel .x-btn-click  .x-btn-right{
+	background-position:0 -196px;
+}
+.ux-taskbuttons-panel .x-btn-click .x-btn-center{
+	background-position:0 -224px;
+}
+.ux-taskbuttons-panel .active-win .x-btn-left{
+	background-position:0 -84px;
+}
+.ux-taskbuttons-panel .active-win  .x-btn-right{
+	background-position:0 -112px;
+}
+.ux-taskbuttons-panel .active-win .x-btn-center{
+	background-position:0 -140px;
+}
+.ux-taskbuttons-panel .x-btn-center button {
+    color:#5C6070;/*调整按钮的字体颜色*/
+}
+.ux-taskbuttons-panel .x-btn-over .x-btn-center button {
+    color:#6D6D6D;
+}
+.ux-taskbuttons-panel .active-win .x-btn-center button {
+    color:#000000;
+}
+/* end: taskbutton */
+
+
+/*----------------------------------------------------------------------^^^^任务栏按钮样式^^^^---------------------------------------------------------------*/
+

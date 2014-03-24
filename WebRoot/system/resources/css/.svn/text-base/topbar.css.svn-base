@@ -1,0 +1,56 @@
+.add {
+	background-image: url(../images/default/topbar/add.gif) !important;
+}
+
+.modify {
+	background-image: url(../images/default/topbar/modify.gif) !important;
+}
+
+.delete {
+	background-image: url(../images/default/topbar/delete.gif) !important;
+}
+
+.browser {
+	background-image: url(../images/default/topbar/browser.gif) !important;
+}
+
+.preference {
+	background-image: url(../images/default/topbar/preference.gif) !important;
+}
+
+.refresh{
+	background-image: url(../images/default/topbar/refresh.gif) !important;
+}
+.save {
+	background-image: url(../images/default/topbar/save.gif) !important;
+}
+.query {
+	background-image: url(../images/default/topbar/query.png) !important;
+}
+.print {
+	background-image: url(../images/default/topbar/printer.png) !important;
+}
+.cancel {
+	background-image: url(../images/default/topbar/cancel.png) !important;
+}
+
+.enable {
+	background-image: url(../images/default/topbar/enable.gif) !important;
+}
+
+.disable {
+	background-image: url(../images/default/topbar/disable.gif) !important;
+}
+
+.up {
+	background-image: url(../images/default/topbar/arrow_up.png) !important;
+}
+.down {
+	background-image: url(../images/default/topbar/arrow_down.png) !important;
+}
+.lock {
+	background-image: url(../images/default/topbar/lock.png) !important;
+}
+.key {
+	background-image: url(../images/default/topbar/key.png) !important;
+}

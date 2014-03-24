@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC 
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" 
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="personal" namespace="/personal"
+		extends="struts-default">
+		<global-results>
+			<result name="input">/index.jsp</result>
+			
+			<result name="permissions">/system/permission.json</result>
+
+			<result name="desktop">/system/core/Desktop3.js</result>
+			<result name="system.file">
+				/../../WEB-INF/system/filesystem/file.js
+			</result>
+			<result name="system">
+				/../../WEB-INF/system/os/os.js
+			</result>
+			<result name="system.dir">
+				/../../WEB-INF/system/filesystem/dir.js
+			</result>
+			<result name="system.filesystem">
+				/../../WEB-INF/system/filesystem/filesystem.js
+			</result>
+			<result name="system.filesysteminstall">
+				/../../WEB-INF/system/filesystem/filesystemInstall.js
+			</result>
+			<!-- end system -->
+
+			<!-- start desktop -->
+			<result name="desktop.install">
+				/../../WEB-INF/system/mcwindow/desktopInstall.js
+			</result>
+			<result name="desktop.menupanel">
+				/../../WEB-INF/system/mcwindow/MenuPanel.js
+			</result>
+			<result name="desktop.quickstartpanel">
+				/../../WEB-INF/system/mcwindow/QuickStartPanel.js
+			</result>
+			<result name="desktop.shortcut">
+				/../../WEB-INF/system/mcwindow/Shortcut.js
+			</result>
+			<result name="desktop.system">
+				/../../WEB-INF/system/mcwindow/System2.js
+			</result>
+			<result name="desktop.taskbar">
+				/../../WEB-INF/system/mcwindow/Taskbar.js
+			</result>
+			<result name="desktop.taskbutton">
+				/../../WEB-INF/system/mcwindow/TaskButton.js
+			</result>
+			<result name="desktop.taskbuttonpanel">
+				/../../WEB-INF/system/mcwindow/TaskButtonPanel.js
+			</result>
+			<result name="desktop.toptaskbar">
+				/../../WEB-INF/system/mcwindow/TopTaskBar.js
+			</result>
+			<result name="desktop.traypanel">
+				/../../WEB-INF/system/mcwindow/TrayPanel.js
+			</result>
+			<result name="desktop.window">
+				/../../WEB-INF/system/mcwindow/Window.js
+			</result>
+			<!-- end desktop -->
+
+			<result name="preferences">
+				/system/preference/preferences.js
+			</result>
+			<result name="preferences-navigation">
+				/system/preference/preferences-navigation.js
+			</result>
+			<result name="preferences-autorun">
+				/system/preference/preferences-autorun.js
+			</result>
+			<result name="preferences-quickstart">
+				/system/preference/preferences-quickstart.js
+			</result>
+			<result name="preferences-appearance">
+				/system/preference/preferences-appearance.js
+			</result>
+			<result name="preferences-background">
+				/system/preference/preferences-background.js
+			</result>
+			<result name="preferences-shortcuts">
+				/system/preference/preferences-shortcuts.js
+			</result>
+
+			<!-- 用户 -->
+			<result name="users">/system/modules/admin/users/users.js</result>
+			<result name="users-browser">/system/modules/admin/users/users-browser.js</result>
+			<result name="users-append">/system/modules/admin/users/users-append.js</result>
+			
+			<!-- 粮仓管理start -->
+				<!-- 参数设置start -->
+			<result name="paramMrg">/system/modules/warehouse/paramMrg/paramMrg.js</result>
+			<result name="paramMrg-browser">/system/modules/warehouse/paramMrg/paramMrg-browser.js</result>
+			<result name="paramMrg-append">/system/modules/warehouse/paramMrg/paramMrg-append.js</result>
+				<!-- 参数设置end -->
+				<!-- 仓号管理start -->
+			<result name="storageMrg">/system/modules/warehouse/storageMrg/storageMrg.js</result>
+			<result name="storageMrg-browser">/system/modules/warehouse/storageMrg/storageMrg-browser.js</result>
+			<result name="storageMrg-append">/system/modules/warehouse/storageMrg/storageMrg-append.js</result>
+				<!-- 仓号管理end -->
+				<!-- 自动控制start -->
+			<result name="autoMrg">/system/modules/warehouse/autoMrg/autoMrg.js</result>
+			<result name="autoMrg-browser">/system/modules/warehouse/autoMrg/autoMrg-browser.js</result>
+			<result name="autoMrg-append">/system/modules/warehouse/autoMrg/autoMrg-append.js</result>
+				<!-- 自动控制end -->
+				<!-- 人工控制start -->
+			<result name="humanMrg">/system/modules/warehouse/humanMrg/humanMrg.js</result>
+			<result name="humanMrg-browser">/system/modules/warehouse/humanMrg/humanMrg-browser.js</result>
+			<result name="humanMrg-append">/system/modules/warehouse/humanMrg/humanMrg-append.js</result>
+				<!-- 人工控制end -->
+			<!-- 粮仓管理end -->
+		</global-results>
+		<action name="showLogin" method="loginInput"
+			class="personal.loginAct">
+		</action>
+		<action name="logout" method="logout" class="personal.loginAct" />
+		<action name="login" method="login" class="personal.loginAct">
+			<result name="success">/default.jsp</result>
+		</action>
+		<action name="com_*" method="{1}" class="personal.loginAct"></action>
+	</package>
+</struts>

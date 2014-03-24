@@ -1,0 +1,86 @@
+.add {
+	background-image: url(images/add.gif) !important;
+}
+.delete {
+	background-image: url(images/delete.gif) !important;
+}
+.refresh{
+	background-image: url(images/refresh.gif) !important;
+}
+.save {
+	background-image: url(images/save.gif) !important;
+}
+.query {
+	background-image: url(images/query.png) !important;
+}
+.print {
+	background-image: url(images/printer.png) !important;
+}
+.cancel {
+	background-image: url(images/cancel.png) !important;
+}
+.up {
+	background-image: url(images/arrow_up.png) !important;
+}
+.down {
+	background-image: url(images/arrow_down.png) !important;
+}
+
+
+
+/*admin*/
+.admin-icon {
+	background-image: url(images/admin-icon.gif) !important;
+}
+.admin-shortcut-icon img {
+    background-image: url(images/admin-shortcut-icon.png);
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='system/modules/users/images/admin-shortcut-icon.png', sizingMethod='scale');
+}
+
+
+/*warehouse*/
+.warehouse-icon {
+	background-image: url(images/warehouse-icon.gif) !important;
+}
+.warehouse-shortcut-icon img {
+    background-image: url(images/warehouse-shortcut-icon.png);
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='system/modules/users/images/warehouse-shortcut-icon.png', sizingMethod='scale');
+}
+
+
+/*sale*/
+.sale-icon {
+	background-image: url(images/sale-icon.gif) !important;
+}
+.sale-shortcut-icon img {
+    background-image: url(images/sale-shortcut-icon.png);
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='system/modules/bogus/users/images/sale-shortcut-icon.png', sizingMethod='scale');
+}
+
+/*baseinfo*/
+.baseinfo-icon {
+	background-image: url(images/baseinfo-icon.gif) !important;
+}
+.baseinfo-shortcut-icon img {
+    background-image: url(images/baseinfo-shortcut-icon.png);
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='system/modules/users/images/baseinfo-shortcut-icon.png', sizingMethod='scale');
+}
+
+
+/*mrp*/
+.mrp-icon {
+	background-image: url(images/mrp-icon.gif) !important;
+}
+.mrp-shortcut-icon img {
+    background-image: url(images/mrp-shortcut-icon.png);
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='system/modules/users/images/mrp-shortcut-icon.png', sizingMethod='scale');
+}
+
+/*buy*/
+.buy-icon {
+	background-image: url(images/buy-icon.gif) !important;
+}
+.buy-shortcut-icon img {
+    background-image: url(images/buy-shortcut-icon.png);
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='system/modules/users/images/buy-shortcut-icon.png', sizingMethod='scale');
+}

@@ -1,0 +1,74 @@
+
+
+/*----------------------------------------------------------------------vvvv任务栏面板按钮滚动样式vvvv---------------------------------------------------------------*/
+.ux-taskbuttons-panel {
+	background:transparent url(../images/default/taskbar/taskbar-bg.gif) repeat-x scroll 0 0;
+	padding-top:0;
+	position:relative;
+}
+.x-taskbuttons-scrolling {
+	position:relative;
+}
+
+.x-taskbuttons-scrolling .ux-taskbuttons-strip-wrap {
+	margin-left:18px;
+	margin-right:18px;
+}
+td.ux-taskButtons-edge {
+    /*float:left;*/
+    margin:0 !important;
+    padding:0 !important;
+    border:0 none !important;
+    font-size:1px !important;
+    line-height:1px !important;
+    overflow:hidden;
+    zoom:1;
+    background:transparent !important;
+    width:1px;
+}
+.ux-taskbuttons-scroller-left {
+    background: transparent url(../images/default/taskbar/scroll-left.gif) no-repeat -36px 0;
+    width:18px;
+    position:absolute;
+    left:1px;
+    top:0px;
+    z-index:10;
+    cursor:pointer;
+}
+.ux-taskbuttons-scroller-left-over {
+    background-position: -18px 0;
+}
+.ux-taskbuttons-scroller-left-disabled {
+ background-position: 0 0;
+    /*
+    opacity:.5;
+    -moz-opacity:.5;
+    filter:alpha(opacity=50);
+    */
+    
+    cursor:default;
+}
+.ux-taskbuttons-scroller-right {
+    background: transparent url(../images/default/taskbar/scroll-right.gif) no-repeat 0 0;
+    width:18px;
+    position:absolute;
+    right:0;
+    top:0px;
+    z-index:10;
+    cursor:pointer;
+}
+.ux-taskbuttons-scroller-right-over {
+    background-position: -18px 0;
+}
+.ux-taskbuttons-scroller-right-disabled {
+  
+    background-position: -36px 0;
+    /*
+    opacity:.5;
+    -moz-opacity:.5;
+    filter:alpha(opacity=50);
+    */
+    cursor:default;
+}
+/*----------------------------------------------------------------------^^^^任务栏面板按钮滚动样式^^^^---------------------------------------------------------------*/
+

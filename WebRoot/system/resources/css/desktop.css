@@ -1,0 +1,156 @@
+parent {
+	background:transparent !important;
+}
+html, body {
+	font: normal 12px tahoma, arial, verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+	overflow: hidden;
+	height: 100%;
+	background-position:center center;
+	background-repeat:no-repeat;
+	cursor:default;
+}
+
+.wait-cursor {
+	cursor:wait;
+}
+.transparent {
+	-moz-opacity: 0.8;
+    opacity: .80;
+    filter: alpha(opacity=80);
+}
+.wallpaper-tile {
+	background-repeat: repeat;
+	background-position: left top;
+}
+.wallpaper-center {
+	background-position: center;
+}
+
+.logout {
+	background-image: url(../images/default/icons/logout.png) !important;
+}
+.x-icon-alert {
+	background-image: url(../images/default/icons/caution.gif) !important;
+}
+.x-icon-information {
+	background-image: url(../images/default/icons/quote.gif) !important;
+}
+.x-icon-waiting {
+	background-image: url(../images/default/icons/hourglass.gif) !important;
+}
+.x-icon-done {
+	background-image: url(../images/default/icons/clock.gif) !important;
+}
+
+.showWin-icon {
+	background-image: url(../images/default/icons/showwins01.png) !important;
+}
+.x-desktop {
+	width: 100%;
+	height: 100%;
+	border: 0 none;
+	position: relative;
+    overflow:hidden;
+    zoom:1;
+    /*background:#f9f9f9 url(../wallpapers/qwikioffice.jpg) no-repeat fixed center center;*/
+    background: url(../wallpapers/desktop3.jpg) no-repeat fixed center top;
+}
+
+
+.xx-taskbar .x-toolbar{
+    background:transparent url(../images/default/taskbar/taskbar-bg.gif) repeat-x scroll left top;
+    border-style:none;
+}
+
+/*^^^^^^^^*/
+
+.xx-taskbar .x-btn {
+	float: left;
+	margin: 1px 0 0 1px;
+    position:relative;
+}
+/**
+	2010-6-12
+	chl
+	原来 text-align: left;
+	改后 text-align: center;
+*/
+.xx-taskbar button {
+	text-align: center;
+	color: #15245D;
+}
+
+.xx-taskbar .x-panel-body{
+    background:transparent url(../images/default/taskbar/taskbar-bg.gif) repeat-x scroll left top;
+    position:relative;
+    border-style:none;
+}
+
+
+.xx-taskbar {
+	
+	background:transparent url(../images/default/taskbar/taskbar-bg.gif) repeat-x scroll left top;
+	height:30px;
+	margin:0;
+	padding:0;
+	position:relative;
+	z-index:8999;
+}
+
+
+
+
+
+.xx-taskbar .x-splitbar-h {
+	background:transparent url(../images/default/taskbar/taskbar-split-h.gif) no-repeat 0 0;
+	width:14px;
+}
+
+.x-clear {
+    clear:both;
+    height:0;
+    overflow:hidden;
+    line-height:0;
+    font-size:0;
+}
+
+
+/* Begin: shortcuts */
+.ux-shortcut-item {
+	font:normal 10px tahoma,arial,verdana,sans-serif;
+	height:100px;
+	overflow:hidden;
+	position:relative;
+	/*margin-top: 20px;*//*------------------------------------------------------------------------------------*/
+	text-align:center;
+	width:64px;
+}
+.ux-shortcut-btn {
+	cursor:pointer;
+	margin-top: 30px;
+  width:64px;
+}
+.ux-shortcut-btn-text {
+    width:100%;
+    color:#000000;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    cursor:pointer;
+}
+/*
+.ext-ie .ux-shortcut-btn img {
+    background:transparent !important;
+}
+*/
+.ux-shortcut-btn img {
+	width:48px !important;
+    height:48px !important;
+}
+/* End: shortcuts */
+
+
+
+

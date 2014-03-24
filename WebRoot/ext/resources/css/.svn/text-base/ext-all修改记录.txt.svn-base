@@ -1,0 +1,30 @@
+1、.x-window-tl 增加字体为 宋体，大小修改为 12 [修改窗口字体大小]。
+2、.x-btn 增加字体为 宋体，大小修改为 12 [修改窗按扭体大小，影响所有按扭，包括窗体按扭，菜单按扭（不包括菜单的次级按扭）]。
+3、.x-menu-list-item 增加字体为 宋体，大小修改为 12 [菜单列表按扭（即菜单的次级按扭）]。
+4、.x-grid3-hd-row td,.x-grid3-row td,.x-grid3-summary-row td 增加字体为 宋体，大小修改为 12 
+	[影响 表格排序的字体]。
+5、.x-form-field 增加字体为 宋体，是修改FORM中field的字体。
+6、.x-form-item 增加字体为 宋体，修改FORM中LABEL的字体。
+7、.x-toolbar td,.x-toolbar span,.x-toolbar input,.x-toolbar div,.x-toolbar select,.x-toolbar label
+	增加字体为 宋体，大小修改为 12 [影响 所有工具条的字体，包含表格工具条，窗体的工具条]。
+8、.x-item-disabled 修改字体颜色由 gray 改为 #000000。[影响 禁用元素里的文字清楚一些了]。
+9、.x-panel-header 增加字体为 宋体，大小修改为 12[影响 panel元素的标题栏的字体]
+10、.x-tab-strip span.x-tab-strip-text 增加字体为 宋体，大小修改为 12[影响 tabpanel元素的标签栏的字体]
+11、.x-btn-with-menu .x-btn-center em{display:block;background:transparent url(../images/default/toolbar/btn-arrow.gif) no-repeat right 0;padding-right:10px;}
+	修改为.x-btn-with-menu .x-btn-center em{} [去处菜单 按钮的下三角图片]。
+15、.x-tab-panel-header-plain .x-tab-strip-top{background:transparent!important;padding-top:0!important;}
+	修改为.x-tab-panel-header-plain .x-tab-strip-top{}
+	tabpanel的tab栏的背景不再是空白的，tabpanel与上面的控件留有一丝空隙。
+16、.x-window-maximized .x-window-tc 修改 background-color:white;为 background-color:#AAAAAA; 避免窗口最大化的时候标题栏的背景颜色失真。
+desktop.css
+12、.xx-taskbar button 
+/**
+	2010-6-12
+	chl
+	原来 text-align: left;
+	改后 text-align: center;
+	影响 菜单条按钮文字居中。
+*/
+column-tree.css
+13、.x-tree-hd-text 增加字体为 宋体，大小修改为 12 是修改table tree中表格标题行的字体。
+14、.x-tree-col-text 增加字体为 宋体，大小修改为 12 是修改table tree中表格记录行的字体。

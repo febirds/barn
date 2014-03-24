@@ -1,0 +1,56 @@
+.bgtest
+{
+	background-color : #EFFBEF !important;
+}
+.test1
+{
+	border-top:2px solid #99BBE8 !important;
+}
+.test11
+{
+	border-bottom-style:none !important;
+}
+
+.test2
+{
+	border-top-style:none solid solid !important;
+}
+.test22
+{
+	border-bottom:2px solid #99BBE8 !important;
+}
+#loading-mask {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 20000;
+	background-color: white;
+}
+
+#loading {
+	border:1px solid #B6CDCB;
+	position: absolute;
+	margin-top:-33px;
+	margin-left:-110px;
+	left: 50%;
+	top: 50%;
+	padding: 2px;
+	z-index: 20001;
+	width: 220px;
+	height: 66px;
+}
+
+#loading .loading-indicator {
+	background: white;
+	color: #444;
+	font: bold 20px tahoma, arial, helvetica;
+	padding: 10px;
+	margin: 0;
+	height: auto;
+}
+
+#loading-msg {
+	font: normal 18px arial, tahoma, sans-serif;
+}

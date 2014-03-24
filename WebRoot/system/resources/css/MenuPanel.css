@@ -1,0 +1,222 @@
+.ux-menutoolbar-panel {
+
+	background:transparent url(../images/default/taskbar/taskbar-bg.gif) repeat-x scroll left top;
+
+}
+
+.ux-menutoolbar-panel .noem em{
+	background:transparent !important;
+}
+
+.ux-menutoolbar-strip-wrap{
+		width:100%;
+    overflow:hidden;
+    position:relative;
+    zoom:1;
+}
+
+ul.ux-menutoolbar-strip {
+	display:block;
+	width:5000px;
+    zoom:1;
+}
+
+ul.ux-menutoolbar-strip li {
+    float:left;
+    margin-left:2px;
+}
+
+
+ul.ux-menutoolbar-strip li.ux-menutoolbar-edge {
+    float:left;
+    margin:0 !important;
+    padding:0 !important;
+    border:0 none !important;
+    font-size:1px !important;
+    line-height:1px !important;
+    overflow:hidden;
+    zoom:1;
+    background:transparent !important;
+    width:1px;
+}
+
+.x-clear {
+    clear:both;
+    height:0;
+    overflow:hidden;
+    line-height:0;
+    font-size:0;
+}
+
+.x-menutoolbar-scrolling {
+	position:relative;
+}
+
+.x-menutoolbar-scrolling .ux-menutoolbar-strip-wrap {
+	margin-left:18px;
+	margin-right:18px;
+}
+td.ux-menutoolbar-edge {
+    /*float:left;*/
+    margin:0 !important;
+    padding:0 !important;
+    border:0 none !important;
+    font-size:1px !important;
+    line-height:1px !important;
+    overflow:hidden;
+    zoom:1;
+    background:transparent !important;
+    width:1px;
+}
+.ux-menutoolbar-scroller-left {
+    background: transparent url(../images/default/taskbar/scroll-left.gif) no-repeat -36px 0;
+    width:18px;
+    position:absolute;
+    left:1px;
+    top:0px;
+    z-index:10;
+    cursor:pointer;
+}
+.ux-menutoolbar-scroller-left-over {
+    background-position: -18px 0;
+}
+.ux-menutoolbar-scroller-left-disabled {
+    background-position: 0 0;
+    /*
+    opacity:.5;
+    -moz-opacity:.5;
+    filter:alpha(opacity=50);
+    */
+    
+    cursor:default;
+}
+.ux-menutoolbar-scroller-right {
+    background: transparent url(../images/default/taskbar/scroll-right.gif) no-repeat 0 0;
+    width:18px;
+    position:absolute;
+    right:0;
+    top:0px;
+    z-index:10;
+    cursor:pointer;
+}
+.ux-menutoolbar-scroller-right-over {
+    background-position: -18px 0;
+}
+.ux-menutoolbar-scroller-right-disabled {
+    background-position: 0 0;
+    background-position: -36px 0;
+    /*
+    opacity:.5;
+    -moz-opacity:.5;
+    filter:alpha(opacity=50);
+    */
+    cursor:default;
+}
+
+
+/*
+.ux-menutoolbar-panel .x-btn-icon .x-btn-center .x-btn-text{
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 16px;
+	width: 16px;
+	cursor:pointer;
+	white-space: nowrap;
+    padding:0;
+}
+.ux-menutoolbar-panel .x-btn {
+	float: left;
+	margin: 3px 0 0 1px;
+    position:relative;
+}
+.ux-menutoolbar-panel .x-btn-left, .ux-menutoolbar-panel .x-btn-center, .ux-menutoolbar-panel .x-btn-right{
+		font-size:1px;
+    line-height:1px;
+    width:4px;
+		height:28px;
+}
+*/
+.ux-menutoolbar-panel .x-btn {
+	float: left;
+	margin: 2px 0 0 1px;
+    position:relative;
+}
+.ux-menutoolbar-panel .x-btn-icon .x-btn-center .x-btn-text{
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 16px;
+	width: 16px;
+	cursor:pointer;
+	white-space: nowrap;
+    padding:0;
+}
+
+.ux-menutoolbar-panel .x-btn-left, .ux-menutoolbar-panel .x-btn-right{
+	font-size:1px;
+    line-height:1px;
+}
+
+.ux-menutoolbar-panel .x-btn-left{
+	width:4px;
+	height:28px;
+	background:url(../images/default/taskbar/menu-button.gif) no-repeat 0 0;
+}
+.ux-menutoolbar-panel .x-btn-right{
+	width:4px;
+	height:28px;
+	background:url(../images/default/taskbar/menu-button.gif) no-repeat 0 -28px;
+}
+.ux-menutoolbar-panel .x-btn-left i, .ux-menutoolbar-panel .x-btn-right i{
+	display:block;
+    width:4px;
+    overflow:hidden;
+    font-size:1px;
+    line-height:1px;
+}
+.ux-menutoolbar-panel .x-btn-center{
+	background:url(../images/default/taskbar/menu-button.gif) repeat-x 0 -56px;
+	vertical-align: middle;
+	text-align:center;
+	padding:0;
+	cursor:pointer;
+	white-space:nowrap;
+}
+.ux-menutoolbar-panel .x-btn-left{ 
+	background-position:0 0;
+}
+.ux-menutoolbar-panel .x-btn-right{
+	background-position:0 0;
+}
+.ux-menutoolbar-panel .x-btn-center{
+	background-position:0 0;
+}
+.ux-menutoolbar-panel .x-btn-over .x-btn-left,
+.ux-menutoolbar-panel .x-btn-menu-active .x-btn-left{
+	background-position:0 -250px;
+}
+.ux-menutoolbar-panel .x-btn-over  .x-btn-right,
+.ux-menutoolbar-panel .x-btn-menu-active .x-btn-right{
+	background-position:0 -279px;
+}
+.ux-menutoolbar-panel .x-btn-over .x-btn-center,
+.ux-menutoolbar-panel .x-btn-menu-active .x-btn-center{
+	background-position:0 -308px;
+}
+.ux-menutoolbar-panel .x-btn-click .x-btn-left{
+	background-position:0 -163px;
+}
+.ux-menutoolbar-panel .x-btn-click  .x-btn-right{
+	background-position:0 -192px;
+}
+.ux-menutoolbar-panel .x-btn-click .x-btn-center{
+	background-position:0 -221px;
+}
+.ux-menutoolbar-panel .active-win .x-btn-left{
+	background-position:0 -84px;
+}
+.ux-menutoolbar-panel .active-win  .x-btn-right{
+	background-position:0 -112px;
+}
+.ux-menutoolbar-panel .active-win .x-btn-center{
+	background-position:0 -140px;
+}
